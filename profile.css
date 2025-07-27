@@ -1,0 +1,92 @@
+#profile {
+  background-color: black;
+  display: flex;
+  color: white;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  gap: 2em;
+}
+
+.portrait-section {
+  width: 60%;
+  display: flex;
+  justify-content: right;
+  position: relative;
+}
+
+.portrait-section img {
+  height: 520px;
+  width: 33vw;
+  object-fit: cover;
+  border-radius: 4px;
+  filter: grayscale(100%) contrast(1) brightness(0.9);
+}
+
+.portrait-text {
+  position: absolute;
+  bottom: 90px;
+  right: 120px;
+  text-transform: uppercase;
+  font-family: "Fragment Mono", monospace;
+  font-weight: lighter;
+  color: #f5f5f5;
+  font-size: small;
+}
+
+.profile-text {
+  width: 80%;
+  display: flex;
+  color: #999999;
+  flex-direction: column;
+  gap: 1em;
+  font-size: 1.4em;
+  margin-right: 5%;
+  justify-content: center;
+  margin-top: -0.4em;
+}
+
+.profile-text span {
+  color: white;
+}
+
+.profile-location {
+  margin-top: 1em;
+  border-bottom: 0.4px solid #424242;
+  padding-bottom: 1.3em;
+}
+
+.profile-location i {
+  margin-left: 5px;
+  font-size: 15px;
+  color: white;
+}
+
+.profile-location-detail {
+  font-size: 0.8em;
+}
+
+.profile-socials {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  font-size: 18px;
+  margin-top: -0.2em;
+}
+
+.profile-socials > div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-socials a {
+  color: #999999;
+}
+
+.profile-socials p {
+  font-family: "Fragment Mono";
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
