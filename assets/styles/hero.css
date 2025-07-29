@@ -18,7 +18,7 @@ body {
   --font-nav: 14px;
 }
 
-.hero-container {
+#hero {
   width: 1200px;
   height: 800px;
   background-image: url("../images/dada.png");
@@ -29,7 +29,7 @@ body {
   overflow: hidden;
 }
 
-.hero-container::before {
+#hero::before {
   content: "";
   position: absolute;
   top: 0;
@@ -40,7 +40,7 @@ body {
   z-index: -1;
 }
 
-.hero-container {
+#hero {
   position: relative;
   z-index: 2;
   width: 100%;

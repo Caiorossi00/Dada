@@ -1,0 +1,32 @@
+.day {
+  cursor: pointer;
+  user-select: none;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 2em;
+}
+
+.events-list {
+  display: none;
+}
+
+.events-list.active {
+  display: block;
+}
+
+.event {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 1em 5em;
+}
+
+.event span {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #1a1a1a;
+}
+
+.event img {
+  height: 180px;
+}
